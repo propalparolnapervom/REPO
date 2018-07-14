@@ -118,6 +118,45 @@ git diff
 ```
 
 
+## WORKING WITH REMOTE CONNECTIONS
+
+**View remote addresses**
+```
+git remote -v
+
+      origin  https://github.com/propalparolnapervom/test_dir.git (fetch)
+      origin  https://github.com/propalparolnapervom/test_dir.git (push)
+```
+
+**Add remote connection**
+```
+git remote add <REMOTENAME> <URL>
+```
+
+**Set an URL to a remote connection**
+```
+git remote set-url <REMOTENAME> <URL>
+```
+
+**Pull in changes**
+```
+git pull <REMOTENAME> <BRANCHNAME>
+```
+
+**Push changes**
+```
+git push <REMOTENAME> <BRANCH>
+```
+
+
+
+
+
+
+
+
+
+
 
 
 
