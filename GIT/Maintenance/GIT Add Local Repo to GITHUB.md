@@ -52,6 +52,16 @@ Git has a branching system so that you can work on different parts of a project 
 So, send our branch named 'master' to our remote on GitHub named 'origin'.
 ```
 git push origin master
+
+      Enumerating objects: 6, done.
+      Counting objects: 100% (6/6), done.
+      Delta compression using up to 4 threads.
+      Compressing objects: 100% (2/2), done.
+      Writing objects: 100% (6/6), 412 bytes | 206.00 KiB/s, done.
+      Total 6 (delta 1), reused 0 (delta 0)
+      remote: Resolving deltas: 100% (1/1), done.
+      To https://github.com/propalparolnapervom/test_dir.git
+       * [new branch]      master -> master
 ```
 
 Now go to your remote repository's page on GitHub.com and refresh the page. Wow! Everything is now the same locally as it is remotely.
