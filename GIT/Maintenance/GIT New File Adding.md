@@ -1,29 +1,25 @@
-# GIT MAINTENANCE
+# GIT NEW FILE ADDING
 
-## WORKING WITH GITHUB
+**Add a new dir with file to the repo XMINDS**
 
-**Clone a repo XMINDS from GitHub**
-
-1. Go to any empty dir (or create a new one)
+1. Go to any empty dir on your local PC (or create a new one)
 ```
 mkdir D:\overall\git_space
 cd D:\overall\git_space
 dir
 ```
 
-2. Clone the repo
+2. Clone a repo XMINDS from GitHub
 ```
 git clone https://github.com/propalparolnapervom/XMINDS.git
 ```
 
-**Add a new dir with file to the repo XMINDS**
-
-1. Go to the downloaded (cloned) repo dir
+3. Go to the just downloaded (cloned) repo dir
 ```
 cd D:\overall\git_space\XMINDS
 ```
 
-2. Put (create) a necessary dir/file
+4. Put (create) a necessary dir/file
 ```
 dir 
 
@@ -34,7 +30,7 @@ dir
       14-Jul-18  14:06    <DIR>          Tools
 ```
 
-3. See new dir/file as git
+5. See new dir/file as git
 ```
 git status
 
@@ -50,7 +46,7 @@ git status
       nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-4. Add new dir/files to the downloaded repo
+6. Add new dir/files to the downloaded repo
 ```
 git add *
 git status
@@ -65,7 +61,7 @@ git status
               new file:   Tools/VAGRANT/VAGRANT Structure.xmind
 ```
 
-5. Commit new dir/files to the downloaded repo
+7. Commit new dir/files to the downloaded repo
 ```
 git commit * -m "New file has been added to the repo"
 
@@ -74,7 +70,7 @@ git commit * -m "New file has been added to the repo"
        create mode 100644 Tools/VAGRANT/VAGRANT Structure.xmind
 ```
 
-6. Place new file to the master repo (from which local repo has been cloned initially)
+8. Place new file to the master repo (from which local repo has been cloned initially)
 ```
 git push
 
