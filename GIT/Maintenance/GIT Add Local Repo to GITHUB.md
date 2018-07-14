@@ -28,9 +28,20 @@ These are common files in open source projects so to make starting a new project
 1.6. Click create repository!
 
 
-### 2. Connect your Local to your Remote
+### 2. Connect your Local ("test_dir" on local PC) to your Remote ("test_dir" on GitHub)
 
+At the top on just created empty GitHub repo there is 'Quick Setup' -> "HTTP" button -> Copy the addres (this is the address of your repo on GitHub's servers)
+```
+https://github.com/propalparolnapervom/test_dir.git
+```
 
+> Local repo can have multiple remotes so each requires a name. The primary remote is typically named ``origin``.
+
+Add a remote named 'origin' to your local repo (have to be done from local repo)
+```
+cd test_dir
+git remote add origin https://github.com/propalparolnapervom/test_dir.git
+```
 
 
 ### 3. Push Work to your Remote
