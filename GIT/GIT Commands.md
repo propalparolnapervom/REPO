@@ -31,6 +31,16 @@ git config --global user.email
       propalparolnapervom@gmail.com
 ```
 
+Add your GitHub username to your Git configuration and check it
+```
+git config --global user.username propalparolnapervom
+
+
+git config --global user.username
+
+      propalparolnapervom
+```
+
 ## WORKING WITH REPO
 
 **Turn Git on for a folder**
