@@ -45,7 +45,16 @@ git remote add origin https://github.com/propalparolnapervom/test_dir.git
 
 
 ### 3. Push Work to your Remote
+Next you want to push (send) everything you've done locally to your remote repository on GitHub.
 
+Git has a branching system so that you can work on different parts of a project at different times. By default the first branch is named 'master'. When you push (and later pull) from a project, you tell Git the branch name you want and the name of the remote that it lives on.
+
+So, send our branch named 'master' to our remote on GitHub named 'origin'.
+```
+git push origin master
+```
+
+Now go to your remote repository's page on GitHub.com and refresh the page. Wow! Everything is now the same locally as it is remotely.
 
 
 
