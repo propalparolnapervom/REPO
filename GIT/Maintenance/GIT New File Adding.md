@@ -1,6 +1,6 @@
 # GIT NEW FILE ADDING
 
-**Add a new dir with file to the repo XMINDS**
+**Add a new dir with file to the master repo XMINDS**
 
 1. Go to any empty dir on your local PC (or create a new one)
 ```
@@ -9,7 +9,7 @@ cd D:\overall\git_space
 dir
 ```
 
-2. Clone a repo XMINDS from GitHub
+2. Clone (download) a repo XMINDS from GitHub
 ```
 git clone https://github.com/propalparolnapervom/XMINDS.git
 ```
