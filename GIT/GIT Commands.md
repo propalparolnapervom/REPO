@@ -68,6 +68,25 @@ git commit -m "Created readme"
        create mode 100644 readme.txt
 ```
 
+**See changes btw your local file and the commited one**
+
+If some changes were made to the file from the repo, show the diff
+```
+git diff
+
+      diff --git a/readme.txt b/readme.txt
+      index 915203c..06b685a 100644
+      --- a/readme.txt
+      +++ b/readme.txt
+      @@ -1,3 +1,3 @@
+       1
+      -11
+      -111
+      \ No newline at end of file
+      +111
+      +1111
+      \ No newline at end of file
+```
 
 
 
