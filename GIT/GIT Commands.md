@@ -11,14 +11,24 @@ git --version
 
 **Configure GIT so it knows to associate your work to you**
 
-Set your name
+Set your name and check it
 ```
 git config --global user.name "propalparolnapervom"
+
+
+git config --global user.name
+
+      propalparolnapervom
 ```
 
-Set your email
+Set your email and check it
 ```
 git config --global user.email "propalparolnapervom@gmail.com"
+
+
+git config --global user.email
+
+      propalparolnapervom@gmail.com
 ```
 
 ## WORKING WITH REPO
@@ -36,9 +46,9 @@ git init
 
 ## WORKING WITH FILES IN THE REPO
 
-**Add new file**
+**Add/Update the file**
 
-Use Git to see what changed in your repository
+1. Use Git to see what changed in your repository
 ```
 git status
 
@@ -54,12 +64,21 @@ git status
       nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Add the file you just created so that it becomes a part of the changes you will commit (aka save) with Git
+2. Add ...
+
+... the file you just created so that it becomes a part of the changes you will commit (aka save) with Git
 ```
 git add readme.txt
 ```
 
-Commit those changes to the repository's history with a short (m) message describing the updates
+OR
+
+... all new/changed files in the repo
+```
+git add .
+```
+
+3. Commit those changes to the repository's history with a short (m) message describing the updates
 ```
 git commit -m "Created readme"
 
@@ -87,6 +106,7 @@ git diff
       +1111
       \ No newline at end of file
 ```
+
 
 
 
