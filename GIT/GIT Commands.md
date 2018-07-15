@@ -54,6 +54,14 @@ git init
       Initialized empty Git repository in D:/overall/git_space/test_dir/.git/
 ```
 
+**Clone remote repo to your local**
+
+Clone (download) remote repo to your local PC
+```
+git clone <URLFROMGITHUB>
+```
+
+
 ## WORKING WITH FILES IN THE REPO
 
 **Add/Update the file**
