@@ -161,16 +161,33 @@ git remote set-url <REMOTENAME> <URL>
 
 ## WORKING WITH BRANCHES
 
-**View branches**
+**View available branches**
 ```
 git branch
 
       * master
 ```
 
+**See on what branch you're currently on**
+```
+git status
 
+      On branch gh-pages
+      Your branch is up to date with 'origin/gh-pages'.
 
+      nothing to commit, working tree clean
+```
 
+**Create a new branch**
+Branches are case-sensitive.
+```
+git branch <BRANCHNAME>
+```
+
+**To go into specific branch and work on it**
+```
+git checkout <BRANCHNAME>
+```
 
 
 
