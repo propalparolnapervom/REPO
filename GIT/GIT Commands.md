@@ -189,7 +189,10 @@ git branch <BRANCHNAME>
 git checkout <BRANCHNAME>
 ```
 
-
+**Rename a branch you're currently on**
+```
+git branch -m <NEWBRANCHNAME>
+```
 
 
 
