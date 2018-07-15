@@ -188,6 +188,11 @@ Branches are case-sensitive.
 git branch <BRANCHNAME>
 ```
 
+**Delete branch**
+```
+git branch -d <BRANCHNAME>
+```
+
 **To go into specific branch and work on it**
 ```
 git checkout <BRANCHNAME>
