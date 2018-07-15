@@ -61,6 +61,17 @@ Clone (download) remote repo to your local PC
 git clone <URLFROMGITHUB>
 ```
 
+**Update repo**
+
+**1. Pull in changes**
+```
+git pull <REMOTENAME> <BRANCHNAME>
+```
+
+**2. Push changes**
+```
+git push <REMOTENAME> <BRANCH>
+```
 
 ## WORKING WITH FILES IN THE REPO
 
@@ -146,15 +157,7 @@ git remote add <REMOTENAME> <URL>
 git remote set-url <REMOTENAME> <URL>
 ```
 
-**Pull in changes**
-```
-git pull <REMOTENAME> <BRANCHNAME>
-```
 
-**Push changes**
-```
-git push <REMOTENAME> <BRANCH>
-```
 
 
 
