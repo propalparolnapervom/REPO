@@ -188,9 +188,14 @@ Branches are case-sensitive.
 git branch <BRANCHNAME>
 ```
 
-**Delete branch**
+**Delete branch in local repo**
 ```
 git branch -d <BRANCHNAME>
+```
+
+**Delete branch in remote repo**
+```
+git push <REMOTENAME> --delete <BRANCHNAME>
 ```
 
 **To go into specific branch and work on it**
