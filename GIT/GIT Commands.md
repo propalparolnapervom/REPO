@@ -63,16 +63,20 @@ git clone <URLFROMGITHUB>
 
 **Update repo**
 
-**1. Pull in changes**
-```
-git pull <REMOTENAME> <BRANCHNAME>
-```
-
-**2. Push changes**
+**1. Push changes**
 ```
 git push <REMOTENAME> <BRANCHNAME>
 ```
 
+**2. Pull in changes**
+```
+git pull <REMOTENAME> <BRANCHNAME>
+```
+
+**See changes to the remote before you pull in**
+```
+git fetch --dry-run
+```
 
 ## WORKING WITH FILES IN THE REPO
 
