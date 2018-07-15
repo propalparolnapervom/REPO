@@ -58,7 +58,7 @@ git remote -v
 ```
 
 
-## CONNECT TO HE ORIGINAL REPO
+## CONNECT TO THE ORIGINAL REPO
 
 What if the original repo you forked happens to change? You'll want to be able to pull in those changes too. So let's add another remote connection, this time to the original, github.com/jlord/patchwork, repository with its URL.
 
