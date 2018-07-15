@@ -73,13 +73,6 @@ git pull <REMOTENAME> <BRANCHNAME>
 git push <REMOTENAME> <BRANCHNAME>
 ```
 
-**Sho branches**
-```
-git branch
-
-      * master
-```
-
 
 ## WORKING WITH FILES IN THE REPO
 
@@ -165,6 +158,15 @@ git remote add <REMOTENAME> <URL>
 git remote set-url <REMOTENAME> <URL>
 ```
 
+
+## WORKING WITH BRANCHES
+
+**View branches**
+```
+git branch
+
+      * master
+```
 
 
 
