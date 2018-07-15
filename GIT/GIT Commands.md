@@ -70,8 +70,16 @@ git pull <REMOTENAME> <BRANCHNAME>
 
 **2. Push changes**
 ```
-git push <REMOTENAME> <BRANCH>
+git push <REMOTENAME> <BRANCHNAME>
 ```
+
+**Sho branches**
+```
+git branch
+
+      * master
+```
+
 
 ## WORKING WITH FILES IN THE REPO
 
