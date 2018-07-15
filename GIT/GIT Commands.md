@@ -1,5 +1,10 @@
 # GIT COMMANDS
 
+## VISUAL GIT REFERENCE
+
+[Visual reference](http://marklodato.github.io/visual-git-guide/index-en.html)
+
+
 ## CONFIGURATION
 
 **Get version of installed GIT**
