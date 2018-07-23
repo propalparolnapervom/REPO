@@ -49,6 +49,14 @@ Next you want to push (send) everything you've done locally to your remote repos
 
 Git has a branching system so that you can work on different parts of a project at different times. By default the first branch is named 'master'. When you push (and later pull) from a project, you tell Git the branch name you want and the name of the remote that it lives on.
 
+See your branches
+```
+git status
+
+      On branch master
+      nothing to commit, working tree clean
+```
+
 So, send our branch named 'master' to our remote on GitHub named 'origin'.
 ```
 git push origin master
