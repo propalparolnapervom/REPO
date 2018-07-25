@@ -1,11 +1,13 @@
 # GIT INSTALLATION
 
-## WIN
+## VIA INSTALL FILE
 
 Just dowload and install necessary [GIT install file](https://git-scm.com/downloads)
 
 
-## CENTOS 
+## VIA REPO
+
+### CentOS
 
 ```
 sudo yum -y install git
