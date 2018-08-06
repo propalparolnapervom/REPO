@@ -188,6 +188,7 @@ git status
 ```
 
 **Create a new branch**
+
 Branches are case-sensitive.
 ```
 git branch <BRANCHNAME>
