@@ -70,8 +70,19 @@ pbcopy < ~/.ssh/id_rsa.pub
 > Tip: If `pbcopy` isn't working, you can locate the hidden `.ssh` folder, open the file in your favorite text editor, and copy it to your clipboard.
 
 
-4.2. In the upper-right corner of any page, click your profile photo, then click Settings.
+4.2. In the upper-right corner of any page, click your profile photo, then click **Settings**.
 
+4.3. In the user settings sidebar, click **SSH and GPG keys**.
+
+4.4. Click **New SSH key** or **Add SSH key**.
+
+4.5. In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal Mac, you might call this key "Personal MacBook Air".
+
+4.6. Paste your key into the "Key" field.
+
+4.7. Click **Add SSH key**.
+
+4.8. If prompted, confirm your GitHub password.
 
 
 
