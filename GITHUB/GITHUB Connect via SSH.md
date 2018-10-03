@@ -87,9 +87,21 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 
 
+**Test SSH connection**
+
+```
+ssh -T git@github.com
+
+  Hi propalparolnapervom! You've successfully authenticated, but GitHub does not provide shell access.
+```
 
 
+**How it works**
 
+Example
+```
+git clone ssh://git@github.com/propalparolnapervom/XMINDS.git
+```
 
 
 
