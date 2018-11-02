@@ -218,6 +218,51 @@ git branch -m <NEWBRANCHNAME>
 
 
 
+## WORKING WITH TAGS
+
+[Tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
+
+### Local Repo
+
+**List all current tags**
+```
+git tag
+```
+
+**List latest tag**
+```
+git describe --abbrev=0
+```
+
+**Add tag to existing commit**
+```
+git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
+```
+
+
+
+
+### Remote Repo
+
+**Add tag to existing commit**
+```
+      #Tag existing commit
+      
+git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
+
+      #Push it upstream
+      
+git push origin v1.2.1
+```
+
+
+
+
+
+
+
+
+
 
 
 
