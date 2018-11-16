@@ -256,6 +256,51 @@ git push origin v1.2.1
 ```
 
 
+## LOGS
+
+**View repo logs**
+
+Overall
+```
+git log
+
+      commit 487ccc2e8d24ce5cfaa2dfd19b8199052dc2ca79 (HEAD -> master, origin/master, origin/HEAD)
+      Author: Sergii Burtovyi <sbur@Sergiis-MacBook-Pro.local>
+      Date:   Thu Nov 15 16:23:11 2018 +0200
+
+          DEVOPS-338: Upgrade nginx to latest alpine image
+```
+
+With tags
+```
+git log --decorate
+
+      commit 487ccc2e8d24ce5cfaa2dfd19b8199052dc2ca79 (HEAD -> master, origin/master, origin/HEAD)
+      Author: Sergii Burtovyi <sbur@Sergiis-MacBook-Pro.local>
+      Date:   Thu Nov 15 16:23:11 2018 +0200
+
+          DEVOPS-338: Upgrade nginx to latest alpine image
+```
+
+With tags, in line
+```
+git log --oneline --decorate
+
+      ef083207b itinerary: fix: hide edit button
+      442e25f39 itinerary: fix: hide details modal
+      362bfeb46 (tag: port-v0.6.0) port: fix: sizeme version downgraded to a stable one
+```
+
+
+
+**Search**
+
+Search specific word in the log in the commit message
+```
+git log --grep="CSR"
+```
+
+
 
 
 
