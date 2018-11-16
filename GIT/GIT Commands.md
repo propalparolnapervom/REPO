@@ -258,6 +258,8 @@ git push origin v1.2.1
 
 ## LOGS
 
+[Look at logs](https://www.atlassian.com/git/tutorials/git-log)
+
 **View repo logs**
 
 Overall
