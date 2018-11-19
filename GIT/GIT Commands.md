@@ -256,8 +256,7 @@ List exsiting tags
 git tag -l
 ```
 
-After the clone, you can list the tags with $ git tag -l and then checkout a specific tag:
-
+Now you can checkout a specific tag:
 ```
 git checkout tags/<tag_name>
 ```
