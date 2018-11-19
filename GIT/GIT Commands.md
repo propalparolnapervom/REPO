@@ -224,21 +224,51 @@ git branch -m <NEWBRANCHNAME>
 
 ### Local Repo
 
-**List all current tags**
+**List**
+
+All current tags
 ```
 git tag
 ```
 
-**List latest tag**
+Latest tag
 ```
 git describe --abbrev=0
 ```
 
-**Add tag to existing commit**
+**Add**
+
+Add tag to existing commit
 ```
 git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
 ```
 
+
+**Download code with specific tag**
+
+Clone whole repo
+```
+git clone ...
+```
+
+List exsiting tags
+```
+git tag -l
+```
+
+After the clone, you can list the tags with $ git tag -l and then checkout a specific tag:
+
+```
+git checkout tags/<tag_name>
+```
+
+Even better, checkout and create a branch 
+
+(otherwise you will be on a branch named after the revision number of tag):
+
+```
+git checkout tags/<tag_name> -b <branch_name>
+```
 
 
 
