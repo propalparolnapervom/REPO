@@ -257,14 +257,13 @@ git tag -l
 ```
 
 Now you can checkout a specific tag:
+
+(you will be on a branch named after the revision number of tag - so probable use next step instead)
 ```
 git checkout tags/<tag_name>
 ```
 
-Even better, checkout and create a branch 
-
-(otherwise you will be on a branch named after the revision number of tag):
-
+OR: checkout and create a branch 
 ```
 git checkout tags/<tag_name> -b <branch_name>
 ```
