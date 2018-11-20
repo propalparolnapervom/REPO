@@ -222,9 +222,7 @@ git branch -m <NEWBRANCHNAME>
 
 [Tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging)
 
-### Local Repo
-
-**List**
+### LIST
 
 All current tags
 ```
@@ -236,13 +234,37 @@ Latest tag
 git describe --abbrev=0
 ```
 
-**Add**
+### ADD
 
-Add tag to existing commit
+Add tag to existing commit (local repo)
 ```
 git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
 ```
 
+Add tag to existing commit (remote repo)
+```
+      #Tag existing commit
+      
+git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
+
+      #Push it upstream
+      
+git push origin v1.0.1
+```
+
+### REMOVE
+
+Remove tag from repo (local)
+```
+git tag --delete tagname
+```
+
+Remove tag from the repo (remote)
+```
+git push --delete origin tagname
+```
+
+### DOWNLOAD 
 
 **Download code with specific tag**
 
@@ -268,20 +290,6 @@ OR: checkout and create a branch
 git checkout tags/<tag_name> -b <branch_name>
 ```
 
-
-
-### Remote Repo
-
-**Add tag to existing commit**
-```
-      #Tag existing commit
-      
-git tag -a v1.0.1 -m "Fixed feature W" 4f98fb15535d1932a5cf59d3a9d66cef51ea4244
-
-      #Push it upstream
-      
-git push origin v1.2.1
-```
 
 
 ## LOGS
