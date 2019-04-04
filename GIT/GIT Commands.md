@@ -216,6 +216,18 @@ git checkout <BRANCHNAME>
 git branch -m <NEWBRANCHNAME>
 ```
 
+**Checkout remote branch**
+
+Checkout master
+```
+git clone -v <REPO>
+```
+
+Ckeckout it's branch
+```
+cd <REPO>
+git checkout --track origin/<REMOTE_BRANCH_NAME>
+```
 
 
 ## WORKING WITH TAGS
