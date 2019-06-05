@@ -48,6 +48,12 @@ git config --global user.username
       propalparolnapervom
 ```
 
+**View current global configs**
+
+```
+git config --list
+```
+
 ## WORKING WITH REPO
 
 **Turn Git on for a folder**
