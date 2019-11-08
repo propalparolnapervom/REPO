@@ -1,0 +1,17 @@
+name: Example Workflow
+on: 
+  - pull_request
+
+
+jobs:
+  is_pr_for_other_files_too:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Create issue using REST API
+      run: |
+        echo \
+        echo "Repo is ${{ github.repository }}" \
+        echo \
+        echo "PR number is ${{ github.event.number }}" \
+        echo \
+        echo 
