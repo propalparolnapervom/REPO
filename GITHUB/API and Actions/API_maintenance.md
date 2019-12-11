@@ -24,7 +24,7 @@ List labeles on PR
 curl -H "Authorization: token <your_token_to_the_repo>" https://api.github.com/repos/propalparolnapervom/test_dir/issues/92/labels
 ```
 
-List releases for the repo:
+List releases (only published ones are shown **!!!** ) for the repo:
 ```
 curl -H "Authorization: token <your_token_to_the_repo>" https://api.github.com/repos/propalparolnapervom/test_dir/releases
 ```
