@@ -1,0 +1,24 @@
+name: Main Auto Flow
+
+on: 
+  pull_request:
+    paths:
+      - '*.txt'
+    types:
+      - opened
+      - edited
+      - reopened
+
+jobs:
+
+  main_job:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Get statuses list manually
+        run: |
+              echo
+              echo  "Statuses are:"
+              echo
+              # Get statuses list on current PR
+              curl --request GET --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' --url https://api.github.com/repos/${{ github.repository }}/statuses/${{ github.head_ref }}
