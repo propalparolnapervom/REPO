@@ -29,6 +29,11 @@ List releases (only published ones are shown **!!!** ) for the repo:
 curl -H "Authorization: token <your_token_to_the_repo>" https://api.github.com/repos/propalparolnapervom/test_dir/releases
 ```
 
+List API calls rate limit:
+```
+# https://docs.github.com/en/free-pro-team@latest/rest/reference/rate-limit
+curl -H "Authorization: token <your_token>" https://api.github.com/rate_limit
+```
 
 ## POST 
 
