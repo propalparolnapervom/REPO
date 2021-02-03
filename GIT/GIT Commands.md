@@ -235,6 +235,52 @@ cd <REPO>
 git checkout --track origin/<REMOTE_BRANCH_NAME>
 ```
 
+**Resolving merge conflicts**
+
+You have pushed the branch to the GitHub and turned out it can't be rebased and merged due to conflicts.
+
+On your local PC.
+```
+cd <REPO>
+
+# Make sure you have latest master version
+git checkout master
+git pull
+
+# Start rebase process
+git checkout <REMOTE_BRANCH_NAME>
+git rebase master
+
+# See files that could be added with and without a conflict
+git status
+
+# Manually update all files with conflicts (by editing it via any editor to the state you think should be)
+
+# Once all files with conflicts are updated, mark it as resolved ones
+git add <your_files>
+
+# Continue rebase process
+git rebase --continue
+
+      Applying: iam, iamdelegate: Access from local PC to the openocean-documents-integration-secretly-guiding-sculpin s3 bucket was added
+
+# Without any commits, you're should be clear now. Check it by
+git status
+
+      On branch DEVOPS-1706_access_to_doc_bucket_integr
+      nothing to commit, working tree clean
+      
+# Push resolved conflicts to the GitHub
+git push origin <REMOTE_BRANCH_NAME> --force-with-lease
+
+# Your PR should be updated in GitHub
+
+# Re-request approves 
+
+# Done
+
+```
+
 
 ## WORKING WITH TAGS
 
