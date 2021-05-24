@@ -48,6 +48,16 @@ git config --global user.username
       propalparolnapervom
 ```
 
+Add GitHub Personal Access Token to the '~/.git-credentials' file (thus, don't ask it each time)
+```
+git config --global credential.helper store
+
+# This time it doesn't show anything.
+# Next time you commit/pull/etc it will ask github_username and github_token as usual
+# Once you entered this credentials, it saves it to '~/.git-credentials' file (in a plane text!!!)
+# All next times it doesn't ask you for credentials (it uses saved ones)
+```
+
 **View current global configs**
 
 ```
